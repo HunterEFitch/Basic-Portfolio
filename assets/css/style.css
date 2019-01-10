@@ -1,0 +1,165 @@
+body {
+    background-color: #95a5a6;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: #515151;
+}
+
+a:visited {
+    color: #515151;
+}
+
+a:hover {
+    color: rgb(158, 8, 8);
+}
+
+.wrapper {
+    width: 960px;
+    margin: auto;
+}
+
+#headerStyle {
+    width: 100%;
+    background-color: white;
+    border-bottom: 4px #34495e solid;
+    height: 64px;
+}
+
+#myPortfolio {
+    background-color: #34495e;
+    color: #fff;
+    float: left;
+    padding: 20px;
+    font-size: 24px;
+}
+
+li {
+    float: right;
+    padding: 25px 0px 20px 20px;
+    list-style: none;
+}
+
+#aboutMeBox {
+    background-color: #fff;
+    height: 510px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    color: #515151;
+}
+
+#portfolioBox {
+    background-color: #fff;
+    height: 585px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    color: #515151;
+}
+
+#contactBox {
+    background-color: #fff;
+    height: 685px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    color: #515151;
+}
+
+textarea, input {
+    border: .5px solid #515151;
+}
+
+#submitButton {
+    color: white;
+    background-color: #34495e;
+    width: 100px;
+    margin: 0;
+}
+
+#aboutMeHeader, #portfolioHeader {
+    font-size: 30px;
+    padding: 25px;
+    border-bottom: 1px solid #34495e;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+#hunterPic {
+    width: 180px;
+    height: 180px;
+    margin: 30px;
+    float: left;
+}
+
+p {
+    margin: 30px;
+    text-align: justify;
+    font-size: 20px;
+    color: rgb(104, 101, 101);
+    line-height: 150%;
+}
+
+.portfolioImage  {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 25px;
+    box-sizing: border-box;
+}
+
+.portfolioText {
+    position: absolute;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.495);
+    width: 200px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 150px;
+}
+
+
+#footerStyle {
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    border-top: 4px #34495e solid;
+    height: 64px;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #515151;
+}
+
+/* contact form */
+
+#name, #email {
+    width: 95%;
+    margin: auto;
+    padding: 15px;
+}
+
+#message {
+    width: 95%;
+    margin: auto;
+    padding: 15px;
+}
+
+.formStyle {
+    margin: 30px;
+    padding: 30px;
+}
+  
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
